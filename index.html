@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jafar Rafiq</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/62aea6a719.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/teki_logo_transparant_white_.png" class="logo" alt="logo image">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Game artist/3D Artist</p>
+            <h1>Hi, My name <span>Jafar</span><br>& i live in Göteborg</h1>
+        </div>
+    </div>
+</div>
+<!----------about---------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/jafar rygg.jpg" class="bakgrund" alt="bakgrund">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">about me</h1>
+                <p>Highly motivated and self taught creative artist who is at best with pencil in my hand, 
+                    an artist that loves creativity and to make my work come to life.
+                    Experienced with creating 3D models.
+                    Love to motivate and inspire others.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><br>Photoshop</li>
+                            <li><br>Zbrush</li>
+                            <li><br>Unreal Engine</li>
+                            <li><br>XGEN</li>
+                            <li><br>Unity(Game engine)</li>
+                            <li><br>Blender</li>
+                            <li><br>Illustrator</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><br>3D modeling</li>
+                            <li><br>Character modeling</li>
+                            <li><br>Various scripting languages</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2016</span><br>Grillska high
+                                school - The Technology program</li>
+                            <li><span>2019</span><br>Blekinge Institute of
+                                Technology - Digital games
+                                </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------services---------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2>3D Designs</h2>
+                <p>Creating detailed and realistic 3D models of objects, characters, environments</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-play"></i>
+                <h2>Animation</h2>
+                <p>Creating character and object animation</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <h2>Visual Effects (VFX)</h2>
+                <p>Creating realistic visual effects for films and games</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------portfolio---------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/jafar-rafiq-4.jpg" alt="Nima" class="work-img">
+                <div class="layer">
+                    <h3>Nima</h3>
+                    <p>Learn more</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-palette"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/jafar-rafiq-pose2-2.jpg" alt="Cosmo-Kura" class="work-img">
+
+                <div class="layer">
+                    <h3>Cosmo-Kura</h3>
+                    <p>Learn more</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-palette"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/jafar-rafiq-3.jpg" alt="Doflamingo" class="work-img">
+
+                <div class="layer">
+                    <h3>Doflamingo</h3>
+                    <p>Learn more</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-palette"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-----------contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>jafar.rafiq@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i></i>073 958 04 90</p>
+                <Div class="social-icons">
+                   <a href=""><i class="fa-brands fa-facebook"></i></a>
+                   <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                   <a href=""><i class="fa-brands fa-instagram"></i></a>
+                   <a href=""><i class="fa-brands fa-linkedin"></i></a> 
+                </Div>
+                <a href="images/cv.pdf" download class="btn btn2">Donwload CV</a>
+            </div>
+            <div class="contact-right">
+                 <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="sumbit" class="btn btn2">Sumbit</button>
+                 </form>
+                 <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+    for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx2Ode85TjWJPf1lIRkhEzVrZKjmWhB8R3Lgo1IoxtRd8bQ27hHknq9FjRCVTYgXbYu/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },4000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
